@@ -35,7 +35,7 @@ mongoose
     // Insert courses
     const courses = await Course.insertMany([
       {
-        name: "React for Beginners", // <-- not courseName
+        name: "React for Beginners",
         category: "Frontend",
         link: "https://example.com/react-course",
       },
